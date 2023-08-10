@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #e4e4e4;
     color: #fff;
@@ -136,19 +140,15 @@ section h1 {
     background-color: #000080;
 }
 
-img {
-    width: 800px;
-}
-
-#geometrie, #soudure {
+#geometrie {
     padding-bottom: 500px;
 }
 
-#pneumatiques {
+#pneumatiques, #soudure, #vidange {
     padding-bottom: 20px;
 }
 
-#pneumatiques div {
+#pneumatiques > div, #soudure > div, #vidange > div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -156,6 +156,28 @@ img {
     justify-content: space-around;
 }
 
-#pneumatiques div img {
+#pneumatiques img, #vidange img {
     width: 700px;
+}
+
+.images-with-title {
+    margin-top: 20px;
+    width: fit-content;
+    background-color: #000080;
+}
+
+.images-with-title > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images-with-title img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.multiple-titles {
+    display: flex;
+    flex-direction: column;
 }
