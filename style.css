@@ -140,15 +140,11 @@ section h1 {
     background-color: #000080;
 }
 
-#geometrie {
-    padding-bottom: 500px;
-}
-
 #pneumatiques, #soudure, #vidange {
     padding-bottom: 20px;
 }
 
-#pneumatiques > div, #soudure > div, #vidange > div {
+#pneumatiques > div, #soudure > div, #vidange > div, #geometrie > div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -156,7 +152,7 @@ section h1 {
     justify-content: space-around;
 }
 
-#pneumatiques img, #vidange img {
+#pneumatiques img, #vidange img, #geometrie img {
     width: 700px;
 }
 
