@@ -154,6 +154,7 @@ section h1 {
 
 #pneumatiques img, #vidange img, #geometrie img {
     width: 700px;
+    margin-bottom: 20px;
 }
 
 .images-with-title {
