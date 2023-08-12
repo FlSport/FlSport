@@ -53,7 +53,7 @@ main {
 img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 footer {
@@ -154,7 +154,6 @@ section h1 {
 
 #pneumatiques img, #vidange img, #geometrie img {
     width: 700px;
-    margin-bottom: 20px;
 }
 
 .images-with-title {
